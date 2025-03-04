@@ -173,7 +173,7 @@ def execute_python():
         "passedTestCases": passed_test_cases,
         "totalTestCases": total_test_cases,
         "output": results,
-        "pythonVersion": python_version,
+        "version": python_version,
         "runtime": round((end_time - start_time) * 1000)
     })
 
